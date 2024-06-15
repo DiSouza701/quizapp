@@ -88,8 +88,7 @@ main {
 }
 
 .assuntos {
-    border: 1px solid red;
-
+    
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -103,6 +102,20 @@ main {
     gap: 16px;
     padding: 12px; 
     border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.assuntos button div{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.assuntos button img {
+    width: 100%;
     box-shadow: var(--shadow);
 }
 
@@ -120,3 +133,4 @@ main {
 
 .botao_acessiblidade div{
     background: var(--bg-acessiblidade);
+}
