@@ -10,4 +10,6 @@ botaoTema.addEventListener("click", () => {
     trocarTema(body, botaoTema)
 
 })
+
+ 
 verificarTema(body, botaoTema)
