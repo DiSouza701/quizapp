@@ -30,19 +30,19 @@
 
     <main>
         <section class="pergunta">
-            <p>Questão 6 de 10</p>
+            <div>
+                <p>Questão 6 de 10</p>
 
-            <h2>Qual o significado de HTML?</h2>
-
+                <h2>Qual o significado de HTML?</h2>
+            </div>
             <div class="barra_progresso">
                 <div></div>
-
             </div>
         </section>
 
         <section class="alternativas">
             <form action="">
-                <label for="alternativa_a">
+                <label for="alternativa_a" id="correta">
                     <input type="radio" id="alternativa_a" name="alternativa">
 
                     <div>
@@ -51,7 +51,7 @@
                     </div>
                 </label>
 
-                <label for="alternativa_b">
+                <label for="alternativa_b" id="errada">
                     <input type="radio" id="alternativa_b" name="alternativa">
 
                     <div>
@@ -59,6 +59,7 @@
                         Hyper Text Marketing Language
                     </div>
                 </label>
+
                 <label for="alternativa_c">
                     <input type="radio" id="alternativa_c" name="alternativa">
 
@@ -67,10 +68,10 @@
                         Hyper Text Markup Language
                     </div>
                 </label>
-
+                
                 <label for="alternativa_d">
                     <input type="radio" id="alternativa_d" name="alternativa">
-
+                    
                     <div>
                         <span>D</span>
                         Hyper Text Markup Leveler
@@ -79,9 +80,7 @@
             </form>
 
             <button>Enviar</button>
-            </form>
         </section>
     </main>
-
 </body>
 </html>
